@@ -16,6 +16,16 @@ public class MainActivity extends AppCompatActivity {
         // class đại diện cho 1 quần thể
         //class => kiểu dữ liệu
         Animal meo = new Animal("meowmeow","Xám");
-        Log.d("BBB",meo.name);
+        meo.setName("mimi");
+        Log.d("BBB", meo.run(4));
+        // Các tính chất của hướng đối tượng
+        // 1. TÍnh bao đóng
+        //2. TÍnh kế thừa
+        //3. tính đa hình
+        //4. tính trừu tượng
+
+        // 1. bao đóng Access modifier
+        Cat mew = new Cat("mimi", "Xám");
     }
+
 }
