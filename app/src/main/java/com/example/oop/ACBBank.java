@@ -1,4 +1,10 @@
 package com.example.oop;
 
-public class ACBBank {
+import android.util.Log;
+
+public class ACBBank implements OnHandPrintNameBank{
+    @Override
+    public void printNameBank() {
+        Log.d("BBB", "ACB Bank");
+    }
 }
