@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
         // 1. bao đóng Access modifier
         Cat mew = new Cat("mimi", "Xám");
+        meo.setName("milu");
+        Log.d("BBB", meo.getName());
     }
 
 }
