@@ -28,6 +28,17 @@ public class MainActivity extends AppCompatActivity {
         Cat mew = new Cat("mimi", "Xám");
         meo.setName("milu");
         Log.d("BBB", meo.getName());
+        // overload : phương thức nạp chồng
+        // 1 : các phương thức nạp chồng cùng năm trên cùng 1 vị trí
+        // 2 : các phương thức nạp chồng phải khác với nhau về tham số truyền vào
+        printMessage("Xin Chào");
+        printMessage(android.R.id.message);
+    }
+    private void printMessage(String message){
+        Log.d("BBB", message);
+    }
+    private void printMessage(Integer resID){
+        Log.d("BBB", String.valueOf(resID));
     }
 
 }
